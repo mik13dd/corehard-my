@@ -1,7 +1,7 @@
 language: cpp
 
 script:
-  - mkdir -p build $$ cd build
+  - mkdir -p build && cd build
   - cmake ..
   - cmake --build .
   - ./hello
