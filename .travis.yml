@@ -11,4 +11,4 @@ script:
   - conan install .. --build
   - cmake .. -DCMAKE_BUILD_TYPE=Release
   - cmake --build .
-  - ./hello
+  - ./bin/test_hello
